@@ -20,16 +20,21 @@
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
 
 </head>
-<body>
+<body style="background-color:#1c87c9;"> 
     
       {% include "partial/_topbar.html" %}
       {% include "partial/_navbar.html" %}
+      <!---<img src="{% static 'image/python2.png' %}" alt="no image found" height="80" width="130">-->
       
     {% block h1 %}
     <div class="container">
         <div class="jumbotron">
             <h1>Python is amazing</h1>
             <img src="{% static 'image/py.png' %}" alt="no image found" height="80" width="130">
+            <img src="{% static 'image/g1.png' %}" alt="no image found" height="80" width="130">
+            <img src="{% static 'image/g2.png' %}" alt="no image found" height="80" width="130">
+            <img src="{% static 'image/g3.png' %}" alt="no image found" height="80" width="130">
+            <img src="{% static 'image/g4.png' %}" alt="no image found" height="80" width="130">
         </div>
     </div>
     {% endblock h1 %}

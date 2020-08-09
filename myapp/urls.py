@@ -4,5 +4,9 @@ app_name="myapp"
 
 urlpatterns = [
     path('trail/',views.trail,name="trail"),
-    path('profile/',views.profile,name="profile"),
+    path('about/',views.about,name="about"),
+    path('download/',views.download,name="download"),
+    path('document/',views.document,name="document"),
+
+
 ]

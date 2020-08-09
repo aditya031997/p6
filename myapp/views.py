@@ -10,6 +10,11 @@ def base(request):
 def home(request):
     return render(request,"home.html")
 
-def profile(request):
-    name="Aditya"
-    return render(request,"profile.html",{"name":name})
+def about(request):
+    return render(request,"about.html")
+
+def download(request):
+    return render(request,"download.html")
+
+def document(request):
+    return render(request,"document.html")
