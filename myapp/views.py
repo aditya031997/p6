@@ -18,3 +18,6 @@ def download(request):
 
 def document(request):
     return render(request,"document.html")
+
+def get_demo(request):
+    return render(request,"get_demo.html")
